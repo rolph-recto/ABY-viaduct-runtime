@@ -1,0 +1,4 @@
+
+add_executable(historical_millionaires_test historical_millionaires.cpp common/historical_millionaires.cpp common/viaduct_runtime.cpp)
+set(CMAKE_BUILD_TYPE Debug)
+target_link_libraries(historical_millionaires_test ABY::aby ENCRYPTO_utils::encrypto_utils)
